@@ -10,6 +10,29 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  justify-content: flex-end;
+  display: flex;
+  padding: 1rem;
+  background-color: #373b69;
+}
+.search {
+  font-family: inherit;
+  border: 2px solid #373b69;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+.search:active {
+  outline: none;
+}
 .movie {
   margin: 1rem;
   width: 300px;
